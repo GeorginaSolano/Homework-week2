@@ -1,6 +1,6 @@
 
 body {
-    background-color: rgb(238, 234, 230);
+    background-color: rgb(240, 234, 241);
     margin: 0%;
     padding:0%;
     font-family: 'Times New Roman', Times, serif;
@@ -13,18 +13,20 @@ main {
 header {
     display: flex;
     flex-direction: row;
-    padding: 20px 0;
+    padding: 20px 0 10px;
     justify-content: space-between;
     align-items: center;
     /* font-size: 20px; */
     text-align: center;
-    background-color: rgb(89, 133, 163);
-    border-bottom: 15px solid teal;
-    color: rgb(78, 45, 65);
+    background-color: rgb(19, 32, 41);
+    color: rgb(18, 17, 36);
 
 }
 header h1{
+    display:block;
+    background-color: paleturquoise;
     margin-left:30px;
+    color:
 }
 
 .text-right {
@@ -46,7 +48,7 @@ nav ul {
 }
 
 nav a {
-    color: #b9C6ae;
+    color: rgb(152, 228, 218);
     font-weight: bold;
     text-align: right;
     display:inline;
@@ -69,10 +71,24 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.banner-image {
+    background-image: url(https://cdn.vanderbilt.edu/vu-wp0/wp-content/uploads/sites/156/2020/10/28121659/2020-10-28_12-14-43.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
+.banner > h2{
+    display:block;
+    margin-right: 40px;
+    color: rgb(55, 67, 140);
+    font-size: 25px;
+    text-align: right;
+    padding: 0px 20px 20px;
+}
 .content > h3{
     flex: 0 0 15%;
     text-align: right;
+    font-size: 40px;
     padding-right: 10px;
     line-height: 2;
     border-right: 5px solid black;
@@ -82,22 +98,11 @@ main {
     flex: 0 0 75%;
 }
 
-
-aside {
-    flex: 30%;
-    background-color: darkkhaki;
-    top: 70px;
-    width: 150px;
-    padding-left: 5px;
-}
-aside {
-    display: block;
-}
 section{
     width:100%;
     margin: 0%;
     border: 1px solid cornflowerblue; 
-    background-color: honeydew;
+    background-color: rgb(240, 234, 241);
 
 }
 /* .about-me-box {
