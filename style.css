@@ -16,7 +16,6 @@ header {
     padding: 20px 0 10px;
     justify-content: space-between;
     align-items: center;
-    /* font-size: 20px; */
     text-align: center;
     background-color: rgb(19, 32, 41);
     color: rgb(18, 17, 36);
@@ -26,7 +25,7 @@ header h1{
     display:block;
     background-color: paleturquoise;
     margin-left:30px;
-    color:
+    /* color: */
 }
 
 .text-right {
@@ -65,12 +64,7 @@ main {
     width: 90%;
     margin: 0 auto;
 }
-.content {
-    display:flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+
 .banner-image {
     background-image: url(https://cdn.vanderbilt.edu/vu-wp0/wp-content/uploads/sites/156/2020/10/28121659/2020-10-28_12-14-43.png);
     background-repeat: no-repeat;
@@ -79,12 +73,22 @@ main {
 
 .banner > h2{
     display:block;
+    margin-top: 0%;
     margin-right: 40px;
     color: rgb(55, 67, 140);
     font-size: 25px;
     text-align: right;
-    padding: 0px 20px 20px;
+    height: 50px;
+    padding: 25px 10px 20px 20px;
 }
+
+.content {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .content > h3{
     flex: 0 0 15%;
     text-align: right;
@@ -92,36 +96,64 @@ main {
     padding-right: 10px;
     line-height: 2;
     border-right: 5px solid black;
+    margin-top: 20px;
 }
 
 .content > div{
     flex: 0 0 75%;
+    margin-right: 80px;
+    margin-top: 20px;
 }
 
 section{
     width:100%;
     margin: 0%;
-    border: 1px solid cornflowerblue; 
     background-color: rgb(240, 234, 241);
 
 }
-/* .about-me-box {
+.about-me-box {
     display: flex;
     position: absolute;
-    block-size: 200px ;
+    block-size: 100px ;
     top: 220px;
     left: 350px;
     padding: 5px;
-} */
+}
 
-/* .my-projects-box1 {
+.content > .my-projects-box1 flex-container {
     display: flex;
     position: relative;
     block-size: 200px ;
     border: 1px solid cornflowerblue;
-    top: 250px;
-    left: 350;
+    margin-top: 0;
+    left: 350px;
     padding: 5px;
-} */
+}
+
+.project1-box {
+    display: block;
+    width: 80%;
+    height: 200px;
+    border:2px solid turquoise;
+
+}
+
+/* .project2-box {
+    display: block;
+    /* position: relative; */
+    /* width: 50%;
+    height: 100px;
+    border: 2px solid turquoise;
+} */ 
+.content > .contact-me-details a {
+    color: rgb(16, 14, 44);
+    font-weight: bold;
+    text-align: right;
+    display:inline;
+    justify-content: space-between;
+    margin-top:  650px;
+    padding: 0px 20px;
+}
+
 
 
