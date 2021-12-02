@@ -9,5 +9,7 @@ Other features included:
 * the Contact Me section with the links to contact via phone, email, direct access to Github and social media
 * The Project cards - currently as place holders designed to link to projects completed 
 
-The link to the 
+The link to the repository
+https://github.com/GeorginaSolano/Homework-week2
+
 
